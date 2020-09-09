@@ -1,0 +1,73 @@
+textarea {
+    min-height: 400px;
+}
+#emails-view{
+	height:auto;
+	width: 100%;
+	border:0.5px solid #b3b3b3;
+	padding-top: 10px;
+	padding-left: 20px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	color: black;
+}
+ h3{
+	font-size: 50px;
+	color: black;
+}
+.mail{
+	height:auto;
+	width: 1000px;
+	border:0.5px solid #cccccc;
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	display: flex;
+
+	
+}
+.sub{
+	 flex: 30%;
+      max-width:30%;
+}
+.send{
+	 flex: 40%;
+      max-width: 40%;
+}
+.time{
+	flex: 30%;
+      max-width:30%;
+}
+ 
+ .mail:hover{
+ 	cursor: pointer;
+ 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+ }
+ #mail-details{
+  height:auto;
+	width: 100%;
+	border:0.5px solid #b3b3b3;
+	padding-top: 10px;
+	padding-left: 20px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	
+ }
+ .timestamp{
+ 	float: right;
+ 	padding-right: 20px;
+ 	color: #999999;
+ }
+ .body{
+ 	height:auto;
+	width: 1000px;
+	border:0.5px solid #cccccc;
+	border-radius: 5px;
+	padding: 10px;
+ }
+ .timestamp{
+ 	float: right;
+ }
+ .subject{
+ 	margin-bottom: 20px;
+ }
